@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #cca43b;
+}
+.container {
+  height: 100vh;
+}
+.navbar {
+  width: 100%;
+  height: 9%;
+  background-color: #242f40;
+  display: flex;
+  justify-content: center;
+}
+.navbar-inside {
+  width: 60%;
+  height: 100%;
+  margin-top: 13px;
+}
+.navbar-tools {
+  display: flex;
+  justify-content: space-between;
+  color: #e5e5e5;
+  width: 100%;
+}
+.logo {
+  text-align: left;
+  margin-top: 6px;
+}
+.lists {
+  padding-top: 20px;
+  margin-left: 30%;
+}
+.lists ul {
+  text-align: center;
+}
+.lists li {
+  display: inline;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  font-style: italic;
+  padding-right: 15px;
+}
+.lists li a {
+  text-decoration: none;
+  color: #e5e5e5;
+}
+.lists a:hover {
+  color: teal;
+}
+.lists a:active {
+  color: #e5e5e5;
+}
+.Login {
+  border: 1px solid black;
+  background: none;
+  padding: 7px;
+  border-radius: 20px;
+}
+.center {
+  width: 100%;
+  height: 30%;
+}
+.pic {
+  width: 100%;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.pic img {
+  opacity: 0.9;
+  width: 500px;
+  height: 400px;
+}
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  border: none;
+}
+.btns input {
+  padding: 10px;
+  font: italic 16px bold;
+  text-decoration: underline;
+  background-color: brown;
+}
+.btns input:hover {
+  background-color: white;
+  transform: scale(1.2);
+}
+.btns input:active {
+  background-color: brown;
+}
+.paras {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  color: #242f40;
+}
+.paras p {
+  width: 300px;
+  background-color: teal;
+  padding: 15px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+}
+.btn1 {
+  margin-left: 50px;
+}
+.btn2 {
+  margin-right: 50px;
+}
+
+/* for the map */
+.map {
+  align-content: center;
+}
+/* for the h1 and h2 and h3 */
+.titles {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #f6c5af;
+}
+/* for the paragraph */
+.para1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #f6c5af;
+}
+/* for the english small explination */
+.list1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #f6c5af;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/* for the arabic explination */
+.list2 {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #f6c5af;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/* for the background color */
+.body2 {
+  background-color: #435058;
+}
+.first-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.first-btn button {
+  background-color: #242f40;
+  width: 200px;
+}
+.first-btn a {
+  text-decoration: none;
+  color: #cca43b;
+}
+h1 {
+  text-align: center;
+  border-radius: 8px;
+}
+table {
+  margin: 20px;
+  padding: 10px;
+}
+body {
+  background-color: #cca43b;
+}
